@@ -36,7 +36,9 @@
   "extensionDependencies": [],
   "dependencies": {
     "diff": "^3.5.0",
+    "dotenv": "^8.2.0",
     "json-rpc2": "^1.0.2",
+    "node-fetch": "^3.3.2",
     "vscode-debug-logger": "0.0.5",
     "vscode-debugadapter": "^1.32.1",
     "vscode-debugprotocol": "^1.32.0",
