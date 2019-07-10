@@ -1,6 +1,6 @@
 {
   "name": "Go",
-  "version": "0.11.3",
+  "version": "0.11.4",
   "publisher": "ms-vscode",
   "description": "Rich Go language support for Visual Studio Code",
   "author": {
@@ -38,7 +38,9 @@
   "extensionDependencies": [],
   "dependencies": {
     "diff": "^3.5.0",
+    "dotenv": "^8.2.0",
     "json-rpc2": "^1.0.2",
+    "node-fetch": "^3.3.2",
     "vscode-debugadapter": "^1.32.1",
     "vscode-debugprotocol": "^1.32.0",
     "vscode-extension-telemetry": "^0.1.0",
@@ -854,7 +856,7 @@
           ],
           "default": null,
           "description": "Specifies the GOROOT to use when no environment variable is set.",
-          "scope": "machine"
+          "scope": "resource"
         },
         "go.testOnSave": {
           "type": "boolean",
