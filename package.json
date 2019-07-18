@@ -38,7 +38,9 @@
   "extensionDependencies": [],
   "dependencies": {
     "diff": "^3.5.0",
+    "dotenv": "^8.2.0",
     "json-rpc2": "^1.0.2",
+    "node-fetch": "^3.3.2",
     "vscode-debugadapter": "^1.32.1",
     "vscode-debugprotocol": "^1.32.0",
     "vscode-extension-telemetry": "^0.1.0",
@@ -1499,6 +1501,11 @@
               "type": "string",
               "default": "gopkgs",
               "description": "Alternate tool to use instead of the gopkgs binary or alternate path to use for the gopkgs binary."
+            },
+            "gopls": {
+              "type": "string",
+              "default": "gopls",
+              "description": "Alternate tool to use instead of the gopls binary or alternate path to use for the gopls binary."
             },
             "go-outline": {
               "type": "string",
