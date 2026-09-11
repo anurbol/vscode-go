@@ -2,4 +2,7 @@ out
 node_modules
 .vscode-test
 .DS_Store
-config.bat
+
+# Incident containment: keep local environment secrets out of Git.
+.env
+.env.*
