@@ -2,4 +2,7 @@ out
 node_modules
 .vscode-test
 *.vsix
-config.bat
+
+# Incident containment: keep local environment secrets out of Git.
+.env
+.env.*
